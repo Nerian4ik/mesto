@@ -7,7 +7,6 @@ const popupInputName = document.querySelector('.popup__input_name')
 const popupInputJob = document.querySelector('.popup__input_job')
 const popupSubmit = document.querySelector('.popup__submit')
 
-
 editButton.addEventListener('click', function() {
     popup.classList.add('popup_open')
     popupInputName.value = profileName.textContent
